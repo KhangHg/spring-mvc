@@ -3,12 +3,10 @@ package com.laptrinhjavaweb.dao.impl;
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
-import org.springframework.util.StringUtils;
 
 import com.laptrinhjavaweb.dao.INewDAO;
 import com.laptrinhjavaweb.mapper.NewMapper;
 import com.laptrinhjavaweb.model.NewModel;
-import com.laptrinhjavaweb.paging.Pageble;
 
 @Repository
 public class NewDAO extends AbstractDAO<NewModel> implements INewDAO {
